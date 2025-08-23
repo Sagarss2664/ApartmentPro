@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ApartmentPro/static/css/main.d27df059.css",
-    "main.js": "/ApartmentPro/static/js/main.451f49b2.js",
+    "main.css": "/ApartmentPro/static/css/main.0a906bff.css",
+    "main.js": "/ApartmentPro/static/js/main.a18b8564.js",
     "static/js/453.eb52d8aa.chunk.js": "/ApartmentPro/static/js/453.eb52d8aa.chunk.js",
     "static/media/Akshya_Garden.apk": "/ApartmentPro/static/media/Akshya_Garden.81343140d9c1b743269b.apk",
     "static/media/Sunitha.png": "/ApartmentPro/static/media/Sunitha.61079b902ae0a8c6d1a8.png",
@@ -9,12 +9,12 @@
     "static/media/Sagar.jpg": "/ApartmentPro/static/media/Sagar.290513f30a7c87167fc8.jpg",
     "static/media/Koushik.jpg": "/ApartmentPro/static/media/Koushik.3fa83ba012879c4d1844.jpg",
     "index.html": "/ApartmentPro/index.html",
-    "main.d27df059.css.map": "/ApartmentPro/static/css/main.d27df059.css.map",
-    "main.451f49b2.js.map": "/ApartmentPro/static/js/main.451f49b2.js.map",
+    "main.0a906bff.css.map": "/ApartmentPro/static/css/main.0a906bff.css.map",
+    "main.a18b8564.js.map": "/ApartmentPro/static/js/main.a18b8564.js.map",
     "453.eb52d8aa.chunk.js.map": "/ApartmentPro/static/js/453.eb52d8aa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d27df059.css",
-    "static/js/main.451f49b2.js"
+    "static/css/main.0a906bff.css",
+    "static/js/main.a18b8564.js"
   ]
 }
