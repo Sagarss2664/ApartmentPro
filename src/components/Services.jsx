@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import { saveAs } from 'file-saver';
+import { useNavigate } from 'react-router-dom'; 
 
 const Services = () => {
-  // Apartment data from the Excel file
+  // Apartment data from the 
+  // Excel file
+   const navigate = useNavigate();
   const apartmentData = [
     { flat: 'A-001', owner: 'A D Vaidya', mobile: '9343408851' },
     { flat: 'A-002', owner: 'Raju Gudi', mobile: '9008054100' },
@@ -281,11 +284,23 @@ const Services = () => {
         </div>
       </section>
 
+      {/* <section className="pricing-cta">
+        <div className="container">
+          <h2>Ready to Transform Your Property Management?</h2>
+          <p>Our flexible pricing scales with your portfolio size. Contact us for a customized quote.</p>
+          <button   onClick={() => navigate('/contact')}  className="btn primary" >Request a Demo</button>
+        </div>
+      </section> */}
       <section className="pricing-cta">
         <div className="container">
           <h2>Ready to Transform Your Property Management?</h2>
           <p>Our flexible pricing scales with your portfolio size. Contact us for a customized quote.</p>
-          <button className="btn primary">Request a Demo</button>
+          <button 
+            onClick={() => navigate('/contact')} 
+            className="btn primary"
+          >
+            Request a Demo
+          </button>
         </div>
       </section>
     </div>

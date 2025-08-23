@@ -2,6 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
+  const handleScrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <footer className="footer">
       <div className="container">
@@ -19,20 +23,20 @@ const Footer = () => {
           <div className="footer-col">
             <h3>Quick Links</h3>
             <ul>
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/about">About Us</Link></li>
-              <li><Link to="/services">Services</Link></li>
-              <li><Link to="/team">Our Team</Link></li>
-              <li><Link to="/contact">Contact</Link></li>
+              <li><Link to="/" onClick={handleScrollToTop}>Home</Link></li>
+              <li><Link to="/about" onClick={handleScrollToTop}>About Us</Link></li>
+              <li><Link to="/services" onClick={handleScrollToTop}>Services</Link></li>
+              <li><Link to="/team" onClick={handleScrollToTop}>Our Team</Link></li>
+              <li><Link to="/contact" onClick={handleScrollToTop}>Contact</Link></li>
             </ul>
           </div>
           <div className="footer-col">
             <h3>Services</h3>
             <ul>
-              <li><Link to="/services">President Dashboard</Link></li>
-              <li><Link to="/services">Flat Owner Dashboard</Link></li>
-              <li><Link to="/services">Security Dashboard</Link></li>
-              <li><Link to="/services">Other</Link></li>
+              <li><Link to="/services" onClick={handleScrollToTop}>President Dashboard</Link></li>
+              <li><Link to="/services" onClick={handleScrollToTop}>Flat Owner Dashboard</Link></li>
+              <li><Link to="/services" onClick={handleScrollToTop}>Security Dashboard</Link></li>
+              <li><Link to="/services" onClick={handleScrollToTop}>Other</Link></li>
             </ul>
           </div>
           <div className="footer-col">
@@ -47,9 +51,9 @@ const Footer = () => {
         <div className="footer-bottom">
           <p>&copy; {new Date().getFullYear()} ApartmentPro. All Rights Reserved.</p>
           <div className="legal-links">
-            <Link to="#">Privacy Policy</Link>
-            <Link to="#">Terms of Service</Link>
-            <Link to="#">Cookie Policy</Link>
+            <Link to="#" onClick={handleScrollToTop}>Privacy Policy</Link>
+            <Link to="#" onClick={handleScrollToTop}>Terms of Service</Link>
+            <Link to="#" onClick={handleScrollToTop}>Cookie Policy</Link>
           </div>
         </div>
       </div>
